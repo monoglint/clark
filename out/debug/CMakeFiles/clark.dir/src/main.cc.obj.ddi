@@ -1,0 +1,17 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles\\clark.dir\\src\\main.cc.obj",
+      "requires": [
+        {
+          "logical-name": "client"
+        },
+        {
+          "logical-name": "server"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

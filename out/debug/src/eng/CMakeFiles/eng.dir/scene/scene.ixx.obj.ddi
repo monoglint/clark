@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\eng\\CMakeFiles\\eng.dir\\scene\\scene.ixx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "eng.scene",
+          "source-path": "C:/Users/jghig/projects/cxx/clark/src/eng/scene/scene.ixx"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

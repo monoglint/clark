@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "lib\\raylibcpp\\modules\\CMakeFiles\\raylib_cpp_modules.dir\\raylib.cppm.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "raylib",
+          "source-path": "C:/Users/jghig/projects/cxx/clark/lib/raylibcpp/modules/raylib.cppm"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

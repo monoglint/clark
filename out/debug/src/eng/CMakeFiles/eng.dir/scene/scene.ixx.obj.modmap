@@ -1,0 +1,2 @@
+-x c++-module
+-fmodule-output="src/eng/CMakeFiles/eng.dir/eng.scene.pcm"

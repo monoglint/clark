@@ -1,0 +1,278 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/client/libclient.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"src/client/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "raylib_cpp_modules::@e841e74813c218ebe242"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "client_eng::@0e148d970532a6eccb16"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "shared::@98093a27b7e7f29c85ce"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "@cmake_cxx_std@synth_0::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "@cmake_cxx_std::@6890427a1f51a3e7e1df"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -stdlib=libc++ -std=gnu++20"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-unused-function"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "GRAPHICS_API_OPENGL_33"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PLATFORM_DESKTOP"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/jghig/projects/cxx/clark/lib/raylib/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "raylib::@3eed9eed2c1f0ea8aac2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@4e014b6af65fbb183af1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "raylib_cpp_modules::@e841e74813c218ebe242"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "client_eng::@0e148d970532a6eccb16"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "shared::@98093a27b7e7f29c85ce"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "@cmake_cxx_std@synth_0::@6890427a1f51a3e7e1df"
+		}
+	],
+	"fileSets" : 
+	[
+		{
+			"baseDirectories" : 
+			[
+				"src/client"
+			],
+			"name" : "CXX_MODULES",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	],
+	"id" : "client::@8ca63c80a879d0067daa",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "client_eng::@0e148d970532a6eccb16"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "raylib_cpp_modules::@e841e74813c218ebe242"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "client_eng::@0e148d970532a6eccb16"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "shared::@98093a27b7e7f29c85ce"
+		}
+	],
+	"interfaceSources" : 
+	[
+		{
+			"fileSetIndex" : 0,
+			"fileSetIndexes" : 
+			[
+				0
+			],
+			"path" : "src/client/client_main.ixx",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "raylib_cpp_modules::@e841e74813c218ebe242"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "client_eng::@0e148d970532a6eccb16"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "shared::@98093a27b7e7f29c85ce"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "@cmake_cxx_std@synth_0::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "@cmake_cxx_std::@6890427a1f51a3e7e1df"
+		}
+	],
+	"name" : "client",
+	"nameOnDisk" : "libclient.a",
+	"paths" : 
+	{
+		"build" : "src/client",
+		"source" : "src/client"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"interfaceSourceIndexes" : 
+			[
+				0
+			],
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"backtraces" : 
+			[
+				6
+			],
+			"compileGroupIndex" : 0,
+			"fileSetIndex" : 0,
+			"fileSetIndexes" : 
+			[
+				0
+			],
+			"path" : "src/client/client_main.ixx",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

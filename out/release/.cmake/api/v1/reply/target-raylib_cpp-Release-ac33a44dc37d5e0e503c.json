@@ -1,0 +1,47 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"lib/raylibcpp/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	},
+	"id" : "raylib_cpp::@0a9ac780f4694704dba7",
+	"interfaceIncludes" : 
+	[
+		{
+			"path" : "C:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include"
+		}
+	],
+	"name" : "raylib_cpp",
+	"paths" : 
+	{
+		"build" : "lib/raylibcpp/include",
+		"source" : "lib/raylibcpp/include"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

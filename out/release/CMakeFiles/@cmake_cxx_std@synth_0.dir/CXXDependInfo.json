@@ -1,0 +1,65 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/@cmake_cxx_std@synth_0.dir/70b2301d7307.bmi" : 
+		{
+			"bmi-only" : true,
+			"compile-features" : [],
+			"compile-options" : 
+			[
+				"-Wno-reserved-module-identifier"
+			],
+			"definitions" : [],
+			"destination" : null,
+			"include-directories" : 
+			[
+				"C:/msys64/clang64/share/libc++/v1"
+			],
+			"name" : "CXX_MODULES",
+			"relative-directory" : "msys64/clang64/share/libc++/v1",
+			"source" : "C:/msys64/clang64/share/libc++/v1/std.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/@cmake_cxx_std@synth_0.dir/f6733e1179a8.bmi" : 
+		{
+			"bmi-only" : true,
+			"compile-features" : [],
+			"compile-options" : 
+			[
+				"-Wno-reserved-module-identifier"
+			],
+			"definitions" : [],
+			"destination" : null,
+			"include-directories" : 
+			[
+				"C:/msys64/clang64/share/libc++/v1"
+			],
+			"name" : "CXX_MODULES",
+			"relative-directory" : "msys64/clang64/share/libc++/v1",
+			"source" : "C:/msys64/clang64/share/libc++/v1/std.compat.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/jghig/projects/cxx/clark/out/release",
+	"dir-cur-src" : "C:/Users/jghig/projects/cxx/clark",
+	"dir-top-bld" : "C:/Users/jghig/projects/cxx/clark/out/release",
+	"dir-top-src" : "C:/Users/jghig/projects/cxx/clark",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\msys64\\clang64\\share\\libc++\\v1"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/jghig/projects/cxx/clark/out/release/CMakeFiles/@cmake_cxx_std@synth_0.dir",
+	"sources" : {}
+}

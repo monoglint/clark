@@ -1,0 +1,88 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : 
+	{
+		"src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj" : 
+		{
+			"bmi-only" : false,
+			"compile-features" : 
+			[
+				"cxx_std_11"
+			],
+			"compile-options" : [],
+			"definitions" : [],
+			"destination" : null,
+			"include-directories" : 
+			[
+				"C:/Users/jghig/projects/cxx/clark/lib/asio/include"
+			],
+			"name" : "CXX_MODULES",
+			"relative-directory" : "eng/inst",
+			"source" : "C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/inst.ixx",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj" : 
+		{
+			"bmi-only" : false,
+			"compile-features" : 
+			[
+				"cxx_std_11"
+			],
+			"compile-options" : [],
+			"definitions" : [],
+			"destination" : null,
+			"include-directories" : 
+			[
+				"C:/Users/jghig/projects/cxx/clark/lib/asio/include"
+			],
+			"name" : "CXX_MODULES",
+			"relative-directory" : "eng/inst",
+			"source" : "C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/spatial_body.ixx",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"src/shared/CMakeFiles/shared.dir/eng/remote/remote.ixx.obj" : 
+		{
+			"bmi-only" : false,
+			"compile-features" : 
+			[
+				"cxx_std_11"
+			],
+			"compile-options" : [],
+			"definitions" : [],
+			"destination" : null,
+			"include-directories" : 
+			[
+				"C:/Users/jghig/projects/cxx/clark/lib/asio/include"
+			],
+			"name" : "CXX_MODULES",
+			"relative-directory" : "eng/remote",
+			"source" : "C:/Users/jghig/projects/cxx/clark/src/shared/eng/remote/remote.ixx",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/jghig/projects/cxx/clark/out/release/src/shared",
+	"dir-cur-src" : "C:/Users/jghig/projects/cxx/clark/src/shared",
+	"dir-top-bld" : "C:/Users/jghig/projects/cxx/clark/out/release",
+	"dir-top-src" : "C:/Users/jghig/projects/cxx/clark",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\asio\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"C:/Users/jghig/projects/cxx/clark/out/release/CMakeFiles/@cmake_cxx_std@synth_0.dir"
+	],
+	"module-dir" : "C:/Users/jghig/projects/cxx/clark/out/release/src/shared/CMakeFiles/shared.dir",
+	"sources" : {}
+}

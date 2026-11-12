@@ -1,0 +1,36 @@
+{
+	"interface-objects" : {},
+	"modules" : 
+	{
+		"server" : 
+		{
+			"bmi" : "C:/Users/jghig/projects/cxx/clark/out/debug/src/server/CMakeFiles/server.dir/server.pcm",
+			"is-private" : false
+		}
+	},
+	"references" : 
+	{
+		"server" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/server/CMakeFiles/server.dir/server.pcm"
+		},
+		"std" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/@cmake_cxx_std@synth_0.dir/70b2301d7307.bmi"
+		},
+		"std.compat" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/@cmake_cxx_std@synth_0.dir/f6733e1179a8.bmi"
+		}
+	},
+	"usages" : 
+	{
+		"std.compat" : 
+		[
+			"std"
+		]
+	}
+}

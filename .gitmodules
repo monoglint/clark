@@ -1,0 +1,9 @@
+[submodule "lib/raylibcpp"]
+	path = lib/raylibcpp
+	url = https://github.com/robloach/raylib-cpp
+[submodule "lib/raylib"]
+	path = lib/raylib
+	url = https://github.com/raysan5/raylib
+[submodule "lib/asio"]
+	path = lib/asio
+	url = https://github.com/boostorg/asio

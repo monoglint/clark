@@ -1,0 +1,86 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : 
+	{
+		"src/eng/CMakeFiles/eng.dir/scene/scene.ixx.obj" : 
+		{
+			"bmi-only" : false,
+			"compile-features" : 
+			[
+				"cxx_std_20"
+			],
+			"compile-options" : 
+			[
+				"-Wno-unused-function"
+			],
+			"definitions" : 
+			[
+				"PLATFORM_DESKTOP",
+				"GRAPHICS_API_OPENGL_33"
+			],
+			"destination" : null,
+			"include-directories" : 
+			[
+				"C:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include",
+				"C:/Users/jghig/projects/cxx/clark/lib/raylib/src"
+			],
+			"name" : "CXX_MODULES",
+			"relative-directory" : "scene",
+			"source" : "C:/Users/jghig/projects/cxx/clark/src/eng/scene/scene.ixx",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"src/eng/CMakeFiles/eng.dir/window/window.ixx.obj" : 
+		{
+			"bmi-only" : false,
+			"compile-features" : 
+			[
+				"cxx_std_20"
+			],
+			"compile-options" : 
+			[
+				"-Wno-unused-function"
+			],
+			"definitions" : 
+			[
+				"PLATFORM_DESKTOP",
+				"GRAPHICS_API_OPENGL_33"
+			],
+			"destination" : null,
+			"include-directories" : 
+			[
+				"C:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include",
+				"C:/Users/jghig/projects/cxx/clark/lib/raylib/src"
+			],
+			"name" : "CXX_MODULES",
+			"relative-directory" : "window",
+			"source" : "C:/Users/jghig/projects/cxx/clark/src/eng/window/window.ixx",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/jghig/projects/cxx/clark/out/debug/src/eng",
+	"dir-cur-src" : "C:/Users/jghig/projects/cxx/clark/src/eng",
+	"dir-top-bld" : "C:/Users/jghig/projects/cxx/clark/out/debug",
+	"dir-top-src" : "C:/Users/jghig/projects/cxx/clark",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylibcpp\\include",
+		"C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylibcpp/modules/CMakeFiles/raylib_cpp_modules.dir",
+		"C:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/@cmake_cxx_std@synth_0.dir"
+	],
+	"module-dir" : "C:/Users/jghig/projects/cxx/clark/out/debug/src/eng/CMakeFiles/eng.dir",
+	"sources" : {}
+}

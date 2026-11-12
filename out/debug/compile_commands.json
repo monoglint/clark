@@ -1,0 +1,230 @@
+[
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -Wall -g -stdlib=libc++ -std=gnu++20 @CMakeFiles\\clark.dir\\src\\main.cc.obj.modmap -o CMakeFiles\\clark.dir\\src\\main.cc.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\main.cc",
+  "file": "C:/Users/jghig/projects/cxx/clark/src/main.cc",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/clark.dir/src/main.cc.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -IC:/msys64/clang64/share/libc++/v1 -Wall -g -stdlib=libc++ -std=gnu++20 -Wno-reserved-module-identifier @CMakeFiles\\@cmake_cxx_std@synth_0.dir\\f6733e1179a8.bmi.modmap -o CMakeFiles\\@cmake_cxx_std@synth_0.dir\\f6733e1179a8.bmi --precompile C:\\msys64\\clang64\\share\\libc++\\v1\\std.compat.cppm",
+  "file": "C:/msys64/clang64/share/libc++/v1/std.compat.cppm",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/@cmake_cxx_std@synth_0.dir/f6733e1179a8.bmi"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -IC:/msys64/clang64/share/libc++/v1 -Wall -g -stdlib=libc++ -std=gnu++20 -Wno-reserved-module-identifier @CMakeFiles\\@cmake_cxx_std@synth_0.dir\\70b2301d7307.bmi.modmap -o CMakeFiles\\@cmake_cxx_std@synth_0.dir\\70b2301d7307.bmi --precompile C:\\msys64\\clang64\\share\\libc++\\v1\\std.cppm",
+  "file": "C:/msys64/clang64/share/libc++/v1/std.cppm",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/@cmake_cxx_std@synth_0.dir/70b2301d7307.bmi"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src -isystem C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o lib\\raylib\\raylib\\CMakeFiles\\raylib.dir\\rcore.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\rcore.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/rcore.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src -isystem C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o lib\\raylib\\raylib\\CMakeFiles\\raylib.dir\\rshapes.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\rshapes.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/rshapes.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src -isystem C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o lib\\raylib\\raylib\\CMakeFiles\\raylib.dir\\rtext.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\rtext.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/rtext.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src -isystem C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o lib\\raylib\\raylib\\CMakeFiles\\raylib.dir\\rtextures.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\rtextures.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/rtextures.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src -isystem C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o lib\\raylib\\raylib\\CMakeFiles\\raylib.dir\\raudio.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\raudio.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/raudio.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src -isystem C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o lib\\raylib\\raylib\\CMakeFiles\\raylib.dir\\rmodels.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\rmodels.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/rmodels.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\context.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/context.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\init.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/init.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\input.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/input.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\monitor.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/monitor.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\platform.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\platform.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/platform.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\vulkan.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/vulkan.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\window.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/window.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\egl_context.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/egl_context.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\osmesa_context.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/osmesa_context.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\null_init.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/null_init.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\null_monitor.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/null_monitor.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\null_window.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/null_window.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\null_joystick.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/null_joystick.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\win32_module.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/win32_module.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\win32_time.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/win32_time.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\win32_thread.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/win32_thread.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\win32_init.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/win32_init.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\win32_joystick.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/win32_joystick.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\win32_monitor.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/win32_monitor.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\win32_window.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/win32_window.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\cc.exe -DUNICODE -D_GLFW_WIN32 -D_UNICODE -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src -IC:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall -o lib\\raylib\\raylib\\external\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src\\external\\glfw\\src\\wgl_context.c",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/wgl_context.c",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src -Wall -g -stdlib=libc++ -std=gnu++20 -Wno-unused-function @lib\\raylibcpp\\modules\\CMakeFiles\\raylib_cpp_modules.dir\\raylib.cppm.obj.modmap -o lib\\raylibcpp\\modules\\CMakeFiles\\raylib_cpp_modules.dir\\raylib.cppm.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylibcpp\\modules\\raylib.cppm",
+  "file": "C:/Users/jghig/projects/cxx/clark/lib/raylibcpp/modules/raylib.cppm",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylibcpp/modules/CMakeFiles/raylib_cpp_modules.dir/raylib.cppm.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src -Wall -g -stdlib=libc++ -std=gnu++20 -Wno-unused-function @src\\client\\CMakeFiles\\client.dir\\client_main.ixx.obj.modmap -o src\\client\\CMakeFiles\\client.dir\\client_main.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\client\\client_main.ixx",
+  "file": "C:/Users/jghig/projects/cxx/clark/src/client/client_main.ixx",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/src/client/CMakeFiles/client.dir/client_main.ixx.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src -Wall -g -stdlib=libc++ -std=gnu++20 -Wno-unused-function @src\\client\\eng\\CMakeFiles\\client_eng.dir\\scene\\scene.ixx.obj.modmap -o src\\client\\eng\\CMakeFiles\\client_eng.dir\\scene\\scene.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\client\\eng\\scene\\scene.ixx",
+  "file": "C:/Users/jghig/projects/cxx/clark/src/client/eng/scene/scene.ixx",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/src/client/eng/CMakeFiles/client_eng.dir/scene/scene.ixx.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include -IC:/Users/jghig/projects/cxx/clark/lib/raylib/src -Wall -g -stdlib=libc++ -std=gnu++20 -Wno-unused-function @src\\client\\eng\\CMakeFiles\\client_eng.dir\\window\\window.ixx.obj.modmap -o src\\client\\eng\\CMakeFiles\\client_eng.dir\\window\\window.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\client\\eng\\window\\window.ixx",
+  "file": "C:/Users/jghig/projects/cxx/clark/src/client/eng/window/window.ixx",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/src/client/eng/CMakeFiles/client_eng.dir/window/window.ixx.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -Wall -g -stdlib=libc++ -std=gnu++20 @src\\server\\CMakeFiles\\server.dir\\server_main.ixx.obj.modmap -o src\\server\\CMakeFiles\\server.dir\\server_main.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\server\\server_main.ixx",
+  "file": "C:/Users/jghig/projects/cxx/clark/src/server/server_main.ixx",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/src/server/CMakeFiles/server.dir/server_main.ixx.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -IC:/Users/jghig/projects/cxx/clark/lib/asio/include -Wall -g -stdlib=libc++ -std=gnu++20 @src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\inst.ixx.obj.modmap -o src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\inst.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\shared\\eng\\inst\\inst.ixx",
+  "file": "C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/inst.ixx",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -IC:/Users/jghig/projects/cxx/clark/lib/asio/include -Wall -g -stdlib=libc++ -std=gnu++20 @src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\spatial_body.ixx.obj.modmap -o src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\spatial_body.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\shared\\eng\\inst\\spatial_body.ixx",
+  "file": "C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/spatial_body.ixx",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj"
+},
+{
+  "directory": "C:/Users/jghig/projects/cxx/clark/out/debug",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -IC:/Users/jghig/projects/cxx/clark/lib/asio/include -Wall -g -stdlib=libc++ -std=gnu++20 @src\\shared\\CMakeFiles\\shared.dir\\eng\\remote\\remote.ixx.obj.modmap -o src\\shared\\CMakeFiles\\shared.dir\\eng\\remote\\remote.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\shared\\eng\\remote\\remote.ixx",
+  "file": "C:/Users/jghig/projects/cxx/clark/src/shared/eng/remote/remote.ixx",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/debug/src/shared/CMakeFiles/shared.dir/eng/remote/remote.ixx.obj"
+}
+]

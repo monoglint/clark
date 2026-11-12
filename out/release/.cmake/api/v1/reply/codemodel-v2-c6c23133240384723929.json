@@ -1,0 +1,502 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "@cmake_cxx_std::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-@cmake_cxx_std-Release-ce824fdae4ae19ca26e5.json",
+					"name" : "@cmake_cxx_std",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenGL::GL::@3eed9eed2c1f0ea8aac2",
+					"jsonFile" : "target-OpenGL__GL-Release-3cb4fd40dc895d822b69.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenGL::GLU::@3eed9eed2c1f0ea8aac2",
+					"jsonFile" : "target-OpenGL__GLU-Release-ca74c7c576af0ad4d1d9.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Threads::Threads::@5a6c3279ee8d1ff8004c",
+					"jsonFile" : "target-Threads__Threads-Release-b58302db03b90b88daee.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "boost_asio::@4e92b706e5fe694aa977",
+					"jsonFile" : "target-boost_asio-Release-c29a5bb0e4624aa0bb58.json",
+					"name" : "boost_asio",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "boost_asio_core::@4e92b706e5fe694aa977",
+					"jsonFile" : "target-boost_asio_core-Release-d18015378967658fbace.json",
+					"name" : "boost_asio_core",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "boost_asio_deadline_timer::@4e92b706e5fe694aa977",
+					"jsonFile" : "target-boost_asio_deadline_timer-Release-31932bdfb4d14dec2311.json",
+					"name" : "boost_asio_deadline_timer",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "boost_asio_spawn::@4e92b706e5fe694aa977",
+					"jsonFile" : "target-boost_asio_spawn-Release-842525785166689ca22f.json",
+					"name" : "boost_asio_spawn",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "raylib_cpp::@0a9ac780f4694704dba7",
+					"jsonFile" : "target-raylib_cpp-Release-ac33a44dc37d5e0e503c.json",
+					"name" : "raylib_cpp",
+					"projectIndex" : 3
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5,
+						8,
+						9,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-99a74fdd381cf5e91560.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "lib/raylib",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.raylib-Release-267d448d7976c6040065.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/raylib"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1,
+						2
+					],
+					"build" : "lib/raylib/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.raylib.raylib-Release-3d1996308d37c319134f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/raylib/src",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"build" : "lib/raylib/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-lib.raylib.raylib.external.glfw-Release-bf03882e2067294c6da0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "lib/raylib/src/external/glfw"
+				},
+				{
+					"build" : "lib/raylib/raylib/external/glfw/src",
+					"jsonFile" : "directory-lib.raylib.raylib.external.glfw.src-Release-3676516b4768378b80b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "lib/raylib/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						4,
+						9
+					]
+				},
+				{
+					"build" : "lib/raylibcpp",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.raylibcpp-Release-d8b91d0fe66e09839c53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/raylibcpp"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						8
+					],
+					"build" : "lib/raylibcpp/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.raylibcpp.include-Release-b70a992e31727739a59c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "lib/raylibcpp/include"
+				},
+				{
+					"build" : "lib/raylibcpp/modules",
+					"jsonFile" : "directory-lib.raylibcpp.modules-Release-a9d7a0db3c4d8ba19382.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "lib/raylibcpp/modules",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7
+					],
+					"build" : "lib/asio",
+					"jsonFile" : "directory-lib.asio-Release-48e8fa8ea5f9de53c66e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "lib/asio"
+				},
+				{
+					"build" : "src/client",
+					"childIndexes" : 
+					[
+						10
+					],
+					"jsonFile" : "directory-src.client-Release-586cf340442e6b9678eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/client",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/client/eng",
+					"jsonFile" : "directory-src.client.eng-Release-dcead6f9456cc96632b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4.4"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "src/client/eng",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/server",
+					"jsonFile" : "directory-src.server-Release-2e18f67e39941491986c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/server",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/shared",
+					"jsonFile" : "directory-src.shared-Release-f41c6ecf778d83a30f69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/shared",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "clark",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						7,
+						8
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1,
+						2
+					],
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						9
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						8
+					],
+					"directoryIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"name" : "raylib_cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "boost_asio",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "@cmake_cxx_std@synth_0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-@cmake_cxx_std@synth_0-Release-e4836e2cef1104cd0e33.json",
+					"name" : "@cmake_cxx_std@synth_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clark-Release-d1023d868bbede21bdce.json",
+					"name" : "clark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "client::@8ca63c80a879d0067daa",
+					"jsonFile" : "target-client-Release-2976f8b411f6e8a245e3.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "client_eng::@0e148d970532a6eccb16",
+					"jsonFile" : "target-client_eng-Release-46faacb2e43588474023.json",
+					"name" : "client_eng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@4e014b6af65fbb183af1",
+					"jsonFile" : "target-glfw-Release-3d31eba3da9995641388.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "raylib::@3eed9eed2c1f0ea8aac2",
+					"jsonFile" : "target-raylib-Release-71730f7e3a52300f8765.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "raylib_cpp_modules::@e841e74813c218ebe242",
+					"jsonFile" : "target-raylib_cpp_modules-Release-a028f28cee0c03221372.json",
+					"name" : "raylib_cpp_modules",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "server::@2804e40980a64c7d7ad1",
+					"jsonFile" : "target-server-Release-61056cdda3107c9e7d22.json",
+					"name" : "server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "shared::@98093a27b7e7f29c85ce",
+					"jsonFile" : "target-shared-Release-4d46bdafd0896386bf71.json",
+					"name" : "shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@4e014b6af65fbb183af1",
+					"jsonFile" : "target-update_mappings-Release-9055926cc8ed1bcbf2b1.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jghig/projects/cxx/clark/out/release",
+		"source" : "C:/Users/jghig/projects/cxx/clark"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	}
+}

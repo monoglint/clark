@@ -1,0 +1,3 @@
+-x c++-module
+-fmodule-output="src/eng/CMakeFiles/eng.dir/eng.window.pcm"
+-fmodule-file="raylib=lib/raylibcpp/modules/CMakeFiles/raylib_cpp_modules.dir/raylib.pcm"

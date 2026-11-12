@@ -1,0 +1,57 @@
+{
+	"interface-objects" : {},
+	"modules" : {},
+	"references" : 
+	{
+		"client" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/client/CMakeFiles/client.dir/client.pcm"
+		},
+		"client.eng.scene" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/client/eng/CMakeFiles/client_eng.dir/client.eng.scene.pcm"
+		},
+		"client.eng.window" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/client/eng/CMakeFiles/client_eng.dir/client.eng.window.pcm"
+		},
+		"raylib" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "lib/raylibcpp/modules/CMakeFiles/raylib_cpp_modules.dir/raylib.pcm"
+		},
+		"server" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/server/CMakeFiles/server.dir/server.pcm"
+		},
+		"std" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/@cmake_cxx_std@synth_0.dir/70b2301d7307.bmi"
+		},
+		"std.compat" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/@cmake_cxx_std@synth_0.dir/f6733e1179a8.bmi"
+		}
+	},
+	"usages" : 
+	{
+		"client" : 
+		[
+			"raylib"
+		],
+		"client.eng.window" : 
+		[
+			"raylib"
+		],
+		"std.compat" : 
+		[
+			"std"
+		]
+	}
+}

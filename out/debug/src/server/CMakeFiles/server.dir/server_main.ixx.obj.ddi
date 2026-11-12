@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\server\\CMakeFiles\\server.dir\\server_main.ixx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "server",
+          "source-path": "C:/Users/jghig/projects/cxx/clark/src/server/server_main.ixx"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

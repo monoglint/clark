@@ -1,0 +1,243 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/raylibcpp/modules/libraylib_cpp_modules.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_compile_features",
+			"target_sources",
+			"configure_cpp_module_target"
+		],
+		"files" : 
+		[
+			"lib/raylibcpp/modules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 5
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "raylib_cpp::@0a9ac780f4694704dba7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "raylib::@3eed9eed2c1f0ea8aac2"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -stdlib=libc++ -std=gnu++20"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-unused-function"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "GRAPHICS_API_OPENGL_33"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PLATFORM_DESKTOP"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/jghig/projects/cxx/clark/lib/raylib/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "raylib::@3eed9eed2c1f0ea8aac2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@4e014b6af65fbb183af1"
+		}
+	],
+	"fileSets" : 
+	[
+		{
+			"baseDirectories" : 
+			[
+				"lib/raylibcpp/modules"
+			],
+			"name" : "CXX_MODULES",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	],
+	"id" : "raylib_cpp_modules::@e841e74813c218ebe242",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "raylib_cpp::@0a9ac780f4694704dba7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "raylib::@3eed9eed2c1f0ea8aac2"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "raylib_cpp::@0a9ac780f4694704dba7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "raylib::@3eed9eed2c1f0ea8aac2"
+		}
+	],
+	"interfaceSources" : 
+	[
+		{
+			"fileSetIndex" : 0,
+			"fileSetIndexes" : 
+			[
+				0
+			],
+			"path" : "lib/raylibcpp/modules/raylib.cppm",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "raylib_cpp::@0a9ac780f4694704dba7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "raylib::@3eed9eed2c1f0ea8aac2"
+		}
+	],
+	"name" : "raylib_cpp_modules",
+	"nameOnDisk" : "libraylib_cpp_modules.a",
+	"paths" : 
+	{
+		"build" : "lib/raylibcpp/modules",
+		"source" : "lib/raylibcpp/modules"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"interfaceSourceIndexes" : 
+			[
+				0
+			],
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"backtraces" : 
+			[
+				6
+			],
+			"compileGroupIndex" : 0,
+			"fileSetIndex" : 0,
+			"fileSetIndexes" : 
+			[
+				0
+			],
+			"path" : "lib/raylibcpp/modules/raylib.cppm",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

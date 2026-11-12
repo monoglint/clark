@@ -1,0 +1,55 @@
+{
+	"interface-objects" : {},
+	"modules" : 
+	{
+		"client.eng.scene" : 
+		{
+			"bmi" : "C:/Users/jghig/projects/cxx/clark/out/debug/src/client/eng/CMakeFiles/client_eng.dir/client.eng.scene.pcm",
+			"is-private" : false
+		},
+		"client.eng.window" : 
+		{
+			"bmi" : "C:/Users/jghig/projects/cxx/clark/out/debug/src/client/eng/CMakeFiles/client_eng.dir/client.eng.window.pcm",
+			"is-private" : false
+		}
+	},
+	"references" : 
+	{
+		"client.eng.scene" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/client/eng/CMakeFiles/client_eng.dir/client.eng.scene.pcm"
+		},
+		"client.eng.window" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/client/eng/CMakeFiles/client_eng.dir/client.eng.window.pcm"
+		},
+		"raylib" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "lib/raylibcpp/modules/CMakeFiles/raylib_cpp_modules.dir/raylib.pcm"
+		},
+		"std" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/@cmake_cxx_std@synth_0.dir/70b2301d7307.bmi"
+		},
+		"std.compat" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/@cmake_cxx_std@synth_0.dir/f6733e1179a8.bmi"
+		}
+	},
+	"usages" : 
+	{
+		"client.eng.window" : 
+		[
+			"raylib"
+		],
+		"std.compat" : 
+		[
+			"std"
+		]
+	}
+}

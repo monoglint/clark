@@ -1,0 +1,4 @@
+ninja_dyndep_version = 1.0
+build src/server/CMakeFiles/server.dir/server_main.ixx.obj | src/server/CMakeFiles/server.dir/server.pcm: dyndep
+  restat = 1
+

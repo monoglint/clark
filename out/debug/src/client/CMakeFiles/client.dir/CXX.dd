@@ -1,0 +1,4 @@
+ninja_dyndep_version = 1.0
+build src/client/CMakeFiles/client.dir/client_main.ixx.obj | src/client/CMakeFiles/client.dir/client.pcm: dyndep | lib/raylibcpp/modules/CMakeFiles/raylib_cpp_modules.dir/raylib.pcm
+  restat = 1
+

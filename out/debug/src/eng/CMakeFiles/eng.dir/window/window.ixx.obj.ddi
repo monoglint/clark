@@ -1,0 +1,21 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\eng\\CMakeFiles\\eng.dir\\window\\window.ixx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "eng.window",
+          "source-path": "C:/Users/jghig/projects/cxx/clark/src/eng/window/window.ixx"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "raylib"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,6 @@
+[
+{
+  "directory": "c:\\Users\\jghig\\projects\\cxx\\clark",
+  "arguments": ["C:\\msys64\\clang64\\bin\\x86_64-w64-mingw32-clang++.exe", "-c", "-Qunused-arguments", "-m64", "-std=c++20", "-o", "build\\.objs\\clark\\mingw\\x86_64\\release\\src\\main.cc.obj", "src\\main.cc"],
+  "file": "src\\main.cc"
+}]

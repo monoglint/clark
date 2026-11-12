@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build src/client/eng/CMakeFiles/client_eng.dir/scene/scene.ixx.obj | src/client/eng/CMakeFiles/client_eng.dir/client.eng.scene.pcm: dyndep
+  restat = 1
+
+build src/client/eng/CMakeFiles/client_eng.dir/window/window.ixx.obj | src/client/eng/CMakeFiles/client_eng.dir/client.eng.window.pcm: dyndep | lib/raylibcpp/modules/CMakeFiles/raylib_cpp_modules.dir/raylib.pcm
+  restat = 1
+

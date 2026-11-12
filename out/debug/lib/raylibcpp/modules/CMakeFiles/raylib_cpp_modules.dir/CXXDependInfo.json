@@ -1,0 +1,54 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : 
+	{
+		"lib/raylibcpp/modules/CMakeFiles/raylib_cpp_modules.dir/raylib.cppm.obj" : 
+		{
+			"bmi-only" : false,
+			"compile-features" : 
+			[
+				"cxx_std_20"
+			],
+			"compile-options" : 
+			[
+				"-Wno-unused-function"
+			],
+			"definitions" : 
+			[
+				"PLATFORM_DESKTOP",
+				"GRAPHICS_API_OPENGL_33"
+			],
+			"destination" : null,
+			"include-directories" : 
+			[
+				"C:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include",
+				"C:/Users/jghig/projects/cxx/clark/lib/raylib/src"
+			],
+			"name" : "CXX_MODULES",
+			"relative-directory" : "",
+			"source" : "C:/Users/jghig/projects/cxx/clark/lib/raylibcpp/modules/raylib.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylibcpp/modules",
+	"dir-cur-src" : "C:/Users/jghig/projects/cxx/clark/lib/raylibcpp/modules",
+	"dir-top-bld" : "C:/Users/jghig/projects/cxx/clark/out/debug",
+	"dir-top-src" : "C:/Users/jghig/projects/cxx/clark",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylibcpp\\include",
+		"C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\raylib\\src"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/jghig/projects/cxx/clark/out/debug/lib/raylibcpp/modules/CMakeFiles/raylib_cpp_modules.dir",
+	"sources" : {}
+}

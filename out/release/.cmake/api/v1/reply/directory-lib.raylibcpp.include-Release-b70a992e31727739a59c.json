@@ -1,0 +1,141 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/raylibcpp/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"lib/raylibcpp/include/AudioDevice.hpp",
+				"lib/raylibcpp/include/AudioStream.hpp",
+				"lib/raylibcpp/include/AudioStreamUnmanaged.hpp",
+				"lib/raylibcpp/include/AutomationEventList.hpp",
+				"lib/raylibcpp/include/BoundingBox.hpp",
+				"lib/raylibcpp/include/Camera2D.hpp",
+				"lib/raylibcpp/include/Camera3D.hpp",
+				"lib/raylibcpp/include/Color.hpp",
+				"lib/raylibcpp/include/FileData.hpp",
+				"lib/raylibcpp/include/FileText.hpp",
+				"lib/raylibcpp/include/Font.hpp",
+				"lib/raylibcpp/include/FontUnmanaged.hpp",
+				"lib/raylibcpp/include/Functions.hpp",
+				"lib/raylibcpp/include/Gamepad.hpp",
+				"lib/raylibcpp/include/Image.hpp",
+				"lib/raylibcpp/include/Keyboard.hpp",
+				"lib/raylibcpp/include/Material.hpp",
+				"lib/raylibcpp/include/MaterialUnmanaged.hpp",
+				"lib/raylibcpp/include/Matrix.hpp",
+				"lib/raylibcpp/include/Mesh.hpp",
+				"lib/raylibcpp/include/MeshUnmanaged.hpp",
+				"lib/raylibcpp/include/Model.hpp",
+				"lib/raylibcpp/include/ModelUnmanaged.hpp",
+				"lib/raylibcpp/include/ModelAnimation.hpp",
+				"lib/raylibcpp/include/Mouse.hpp",
+				"lib/raylibcpp/include/Music.hpp",
+				"lib/raylibcpp/include/MusicUnmanaged.hpp",
+				"lib/raylibcpp/include/Quaternion.hpp",
+				"lib/raylibcpp/include/Ray.hpp",
+				"lib/raylibcpp/include/RayCollision.hpp",
+				"lib/raylibcpp/include/RaylibException.hpp",
+				"lib/raylibcpp/include/raylib-cpp-utils.hpp",
+				"lib/raylibcpp/include/raylib-cpp.hpp",
+				"lib/raylibcpp/include/raylib.hpp",
+				"lib/raylibcpp/include/raymath.hpp",
+				"lib/raylibcpp/include/Rectangle.hpp",
+				"lib/raylibcpp/include/RenderTexture.hpp",
+				"lib/raylibcpp/include/RenderTextureUnmanaged.hpp",
+				"lib/raylibcpp/include/ShaderUnmanaged.hpp",
+				"lib/raylibcpp/include/Shader.hpp",
+				"lib/raylibcpp/include/Sound.hpp",
+				"lib/raylibcpp/include/SoundUnmanaged.hpp",
+				"lib/raylibcpp/include/Text.hpp",
+				"lib/raylibcpp/include/Texture.hpp",
+				"lib/raylibcpp/include/TextureUnmanaged.hpp",
+				"lib/raylibcpp/include/Touch.hpp",
+				"lib/raylibcpp/include/Vector2.hpp",
+				"lib/raylibcpp/include/Vector3.hpp",
+				"lib/raylibcpp/include/Vector4.hpp",
+				"lib/raylibcpp/include/VrStereoConfig.hpp",
+				"lib/raylibcpp/include/Wave.hpp",
+				"lib/raylibcpp/include/WaveUnmanaged.hpp",
+				"lib/raylibcpp/include/Window.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/raylib_cpp",
+			"exportName" : "raylib_cppTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "raylib_cpp::@0a9ac780f4694704dba7",
+					"index" : 8
+				}
+			],
+			"paths" : 
+			[
+				"lib/raylibcpp/include/CMakeFiles/Export/50f2504e7adaa114529760fa87155636/raylib_cppTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/raylib_cpp",
+			"paths" : 
+			[
+				"out/release/lib/raylibcpp/cmake/raylib_cppConfig.cmake",
+				"out/release/lib/raylibcpp/cmake/raylib_cppConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/raylibcpp/include",
+		"source" : "lib/raylibcpp/include"
+	}
+}
