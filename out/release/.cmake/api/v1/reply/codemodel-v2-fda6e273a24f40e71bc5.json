@@ -34,31 +34,10 @@
 				},
 				{
 					"directoryIndex" : 8,
-					"id" : "boost_asio::@4e92b706e5fe694aa977",
-					"jsonFile" : "target-boost_asio-Release-c29a5bb0e4624aa0bb58.json",
-					"name" : "boost_asio",
-					"projectIndex" : 4
-				},
-				{
-					"directoryIndex" : 8,
-					"id" : "boost_asio_core::@4e92b706e5fe694aa977",
-					"jsonFile" : "target-boost_asio_core-Release-d18015378967658fbace.json",
-					"name" : "boost_asio_core",
-					"projectIndex" : 4
-				},
-				{
-					"directoryIndex" : 8,
-					"id" : "boost_asio_deadline_timer::@4e92b706e5fe694aa977",
-					"jsonFile" : "target-boost_asio_deadline_timer-Release-31932bdfb4d14dec2311.json",
-					"name" : "boost_asio_deadline_timer",
-					"projectIndex" : 4
-				},
-				{
-					"directoryIndex" : 8,
-					"id" : "boost_asio_spawn::@4e92b706e5fe694aa977",
-					"jsonFile" : "target-boost_asio_spawn-Release-842525785166689ca22f.json",
-					"name" : "boost_asio_spawn",
-					"projectIndex" : 4
+					"id" : "asio::@0f93df788f81b465e180",
+					"jsonFile" : "target-asio-Release-812e8d534f588c8cc356.json",
+					"name" : "asio",
+					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 6,
@@ -66,6 +45,13 @@
 					"jsonFile" : "target-raylib_cpp-Release-ac33a44dc37d5e0e503c.json",
 					"name" : "raylib_cpp",
 					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "result::@c47be8674f03c3e2fadb",
+					"jsonFile" : "target-result-Release-0964f108a10214d6a902.json",
+					"name" : "result",
+					"projectIndex" : 0
 				}
 			],
 			"directories" : 
@@ -82,8 +68,9 @@
 						5,
 						8,
 						9,
-						11,
-						12
+						10,
+						12,
+						13
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Release-99a74fdd381cf5e91560.json",
@@ -195,11 +182,11 @@
 				{
 					"abstractTargetIndexes" : 
 					[
-						8
+						5
 					],
 					"build" : "lib/raylibcpp/include",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.raylibcpp.include-Release-b70a992e31727739a59c.json",
+					"jsonFile" : "directory-lib.raylibcpp.include-Release-9d4c3a909a670f381265.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.11"
@@ -226,26 +213,38 @@
 				{
 					"abstractTargetIndexes" : 
 					[
-						4,
-						5,
-						6,
-						7
+						4
 					],
-					"build" : "lib/asio",
-					"jsonFile" : "directory-lib.asio-Release-48e8fa8ea5f9de53c66e.json",
+					"build" : "lib/asiostandalone",
+					"jsonFile" : "directory-lib.asiostandalone-Release-1090caad37c445fc5dd3.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.8"
+						"string" : "4.4.4"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 4,
-					"source" : "lib/asio"
+					"projectIndex" : 0,
+					"source" : "lib/asiostandalone"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						6
+					],
+					"build" : "lib/result",
+					"jsonFile" : "directory-lib.result-Release-41765e0c79c14d08bea9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/result"
 				},
 				{
 					"build" : "src/client",
 					"childIndexes" : 
 					[
-						10
+						11
 					],
 					"jsonFile" : "directory-src.client-Release-586cf340442e6b9678eb.json",
 					"minimumCMakeVersion" : 
@@ -267,7 +266,7 @@
 					{
 						"string" : "4.4.4"
 					},
-					"parentIndex" : 9,
+					"parentIndex" : 10,
 					"projectIndex" : 0,
 					"source" : "src/client/eng",
 					"targetIndexes" : 
@@ -312,21 +311,24 @@
 				{
 					"abstractTargetIndexes" : 
 					[
-						0
+						0,
+						4,
+						6
 					],
 					"childIndexes" : 
 					[
 						1,
-						3,
-						4
+						3
 					],
 					"directoryIndexes" : 
 					[
 						0,
+						8,
 						9,
 						10,
 						11,
-						12
+						12,
+						13
 					],
 					"name" : "clark",
 					"targetIndexes" : 
@@ -382,7 +384,7 @@
 				{
 					"abstractTargetIndexes" : 
 					[
-						8
+						5
 					],
 					"directoryIndexes" : 
 					[
@@ -396,21 +398,6 @@
 					[
 						6
 					]
-				},
-				{
-					"abstractTargetIndexes" : 
-					[
-						4,
-						5,
-						6,
-						7
-					],
-					"directoryIndexes" : 
-					[
-						8
-					],
-					"name" : "boost_asio",
-					"parentIndex" : 0
 				}
 			],
 			"targets" : 
@@ -425,19 +412,19 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "clark::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-clark-Release-d1023d868bbede21bdce.json",
+					"jsonFile" : "target-clark-Release-7f4333bc9aa098e842b1.json",
 					"name" : "clark",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 9,
+					"directoryIndex" : 10,
 					"id" : "client::@8ca63c80a879d0067daa",
-					"jsonFile" : "target-client-Release-2976f8b411f6e8a245e3.json",
+					"jsonFile" : "target-client-Release-3606837f7fba055b8a9f.json",
 					"name" : "client",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 10,
+					"directoryIndex" : 11,
 					"id" : "client_eng::@0e148d970532a6eccb16",
 					"jsonFile" : "target-client_eng-Release-46faacb2e43588474023.json",
 					"name" : "client_eng",
@@ -465,16 +452,16 @@
 					"projectIndex" : 3
 				},
 				{
-					"directoryIndex" : 11,
+					"directoryIndex" : 12,
 					"id" : "server::@2804e40980a64c7d7ad1",
-					"jsonFile" : "target-server-Release-61056cdda3107c9e7d22.json",
+					"jsonFile" : "target-server-Release-d462c1f09a1dcb52a889.json",
 					"name" : "server",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 12,
+					"directoryIndex" : 13,
 					"id" : "shared::@98093a27b7e7f29c85ce",
-					"jsonFile" : "target-shared-Release-4d46bdafd0896386bf71.json",
+					"jsonFile" : "target-shared-Release-b36ae2267f0fb3f0ee09.json",
 					"name" : "shared",
 					"projectIndex" : 0
 				},

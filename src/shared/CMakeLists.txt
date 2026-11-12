@@ -12,4 +12,4 @@ target_sources(shared
         FILES ${MODULE_FILES}
 )
 
-target_link_libraries(shared PRIVATE boost_asio)
+target_link_libraries(shared PRIVATE asio result)

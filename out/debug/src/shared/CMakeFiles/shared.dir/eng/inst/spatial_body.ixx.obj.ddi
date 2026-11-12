@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\spatial_body.ixx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "shared.eng.inst:spatial_body",
+          "source-path": "C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/spatial_body.ixx"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

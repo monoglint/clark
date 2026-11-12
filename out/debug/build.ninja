@@ -1281,6 +1281,196 @@ build lib/raylibcpp/modules/install/strip: phony lib/raylibcpp/modules/CMakeFile
 # C:/Users/jghig/projects/cxx/clark/CMakeLists.txt
 # =============================================================================
 
+
+#############################################
+# Utility command for package
+
+build lib/asiostandalone/CMakeFiles/package.util: CUSTOM_COMMAND lib/asiostandalone/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build lib/asiostandalone/package: phony lib/asiostandalone/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build lib/asiostandalone/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build lib/asiostandalone/package_source: phony lib/asiostandalone/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build lib/asiostandalone/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug\lib\asiostandalone && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\jghig\projects\cxx\clark -BC:\Users\jghig\projects\cxx\clark\out\debug"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build lib/asiostandalone/edit_cache: phony lib/asiostandalone/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build lib/asiostandalone/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug\lib\asiostandalone && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\jghig\projects\cxx\clark -BC:\Users\jghig\projects\cxx\clark\out\debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build lib/asiostandalone/rebuild_cache: phony lib/asiostandalone/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build lib/asiostandalone/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build lib/asiostandalone/CMakeFiles/install.util: CUSTOM_COMMAND lib/asiostandalone/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug\lib\asiostandalone && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build lib/asiostandalone/install: phony lib/asiostandalone/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build lib/asiostandalone/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/asiostandalone/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug\lib\asiostandalone && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build lib/asiostandalone/install/local: phony lib/asiostandalone/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build lib/asiostandalone/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/asiostandalone/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug\lib\asiostandalone && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build lib/asiostandalone/install/strip: phony lib/asiostandalone/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/jghig/projects/cxx/clark/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for package
+
+build lib/result/CMakeFiles/package.util: CUSTOM_COMMAND lib/result/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build lib/result/package: phony lib/result/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build lib/result/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build lib/result/package_source: phony lib/result/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build lib/result/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug\lib\result && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\jghig\projects\cxx\clark -BC:\Users\jghig\projects\cxx\clark\out\debug"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build lib/result/edit_cache: phony lib/result/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build lib/result/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug\lib\result && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\jghig\projects\cxx\clark -BC:\Users\jghig\projects\cxx\clark\out\debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build lib/result/rebuild_cache: phony lib/result/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build lib/result/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build lib/result/CMakeFiles/install.util: CUSTOM_COMMAND lib/result/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug\lib\result && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build lib/result/install: phony lib/result/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build lib/result/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/result/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug\lib\result && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build lib/result/install/local: phony lib/result/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build lib/result/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/result/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\jghig\projects\cxx\clark\out\debug\lib\result && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build lib/result/install/strip: phony lib/result/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/jghig/projects/cxx/clark/CMakeLists.txt
+# =============================================================================
+
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target client
 
@@ -1743,23 +1933,69 @@ build src/server/install/strip: phony src/server/CMakeFiles/install/strip.util
 build cmake_object_order_depends_target_shared: phony || @cmake_cxx_std@synth_0
 
 build src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj.ddi: CXX_SCAN__shared_Debug C$:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/inst.ixx || cmake_object_order_depends_target_shared
+  DEFINES = -DASIO_STANDALONE
   DEP_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\inst.ixx.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\inst.ixx.obj.ddi
   FLAGS = -Wall -g -stdlib=libc++ -std=gnu++20
+  INCLUDES = -IC:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include -IC:/Users/jghig/projects/cxx/clark/lib/result/include
   OBJ_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\inst.ixx.obj
   PREPROCESSED_OUTPUT_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\inst.ixx.obj.ddi.i
 
 build src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj: CXX_COMPILER__shared_scanned_Debug C$:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/inst.ixx | src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj.modmap || cmake_object_order_depends_target_shared src/shared/CMakeFiles/shared.dir/CXX.dd
   CONFIG = Debug
+  DEFINES = -DASIO_STANDALONE
   DEP_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\inst.ixx.obj.d
   DYNDEP_MODULE_MAP_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\inst.ixx.obj.modmap
   FLAGS = -Wall -g -stdlib=libc++ -std=gnu++20
+  INCLUDES = -IC:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include -IC:/Users/jghig/projects/cxx/clark/lib/result/include
   OBJECT_DIR = src\shared\CMakeFiles\shared.dir
   OBJECT_FILE_DIR = src\shared\CMakeFiles\shared.dir\eng\inst
   TARGET_SUPPORT_DIR = src\shared\CMakeFiles\shared.dir
   dyndep = src/shared/CMakeFiles/shared.dir/CXX.dd
 
-build src/shared/CMakeFiles/shared.dir/CXX.dd | src/shared/CMakeFiles/shared.dir/CXXModules.json src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj.modmap: CXX_DYNDEP__shared_Debug src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj.ddi | C$:/Users/jghig/projects/cxx/clark/out/debug/src/shared/CMakeFiles/shared.dir/CXXDependInfo.json CMakeFiles/@cmake_cxx_std@synth_0.dir/CXXModules.json
+build src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj.ddi: CXX_SCAN__shared_Debug C$:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/spatial_body.ixx || cmake_object_order_depends_target_shared
+  DEFINES = -DASIO_STANDALONE
+  DEP_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\spatial_body.ixx.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\spatial_body.ixx.obj.ddi
+  FLAGS = -Wall -g -stdlib=libc++ -std=gnu++20
+  INCLUDES = -IC:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include -IC:/Users/jghig/projects/cxx/clark/lib/result/include
+  OBJ_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\spatial_body.ixx.obj
+  PREPROCESSED_OUTPUT_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\spatial_body.ixx.obj.ddi.i
+
+build src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj: CXX_COMPILER__shared_scanned_Debug C$:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/spatial_body.ixx | src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj.modmap || cmake_object_order_depends_target_shared src/shared/CMakeFiles/shared.dir/CXX.dd
+  CONFIG = Debug
+  DEFINES = -DASIO_STANDALONE
+  DEP_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\spatial_body.ixx.obj.d
+  DYNDEP_MODULE_MAP_FILE = src\shared\CMakeFiles\shared.dir\eng\inst\spatial_body.ixx.obj.modmap
+  FLAGS = -Wall -g -stdlib=libc++ -std=gnu++20
+  INCLUDES = -IC:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include -IC:/Users/jghig/projects/cxx/clark/lib/result/include
+  OBJECT_DIR = src\shared\CMakeFiles\shared.dir
+  OBJECT_FILE_DIR = src\shared\CMakeFiles\shared.dir\eng\inst
+  TARGET_SUPPORT_DIR = src\shared\CMakeFiles\shared.dir
+  dyndep = src/shared/CMakeFiles/shared.dir/CXX.dd
+
+build src/shared/CMakeFiles/shared.dir/eng/socket/socket.ixx.obj.ddi: CXX_SCAN__shared_Debug C$:/Users/jghig/projects/cxx/clark/src/shared/eng/socket/socket.ixx || cmake_object_order_depends_target_shared
+  DEFINES = -DASIO_STANDALONE
+  DEP_FILE = src\shared\CMakeFiles\shared.dir\eng\socket\socket.ixx.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = src\shared\CMakeFiles\shared.dir\eng\socket\socket.ixx.obj.ddi
+  FLAGS = -Wall -g -stdlib=libc++ -std=gnu++20
+  INCLUDES = -IC:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include -IC:/Users/jghig/projects/cxx/clark/lib/result/include
+  OBJ_FILE = src\shared\CMakeFiles\shared.dir\eng\socket\socket.ixx.obj
+  PREPROCESSED_OUTPUT_FILE = src\shared\CMakeFiles\shared.dir\eng\socket\socket.ixx.obj.ddi.i
+
+build src/shared/CMakeFiles/shared.dir/eng/socket/socket.ixx.obj: CXX_COMPILER__shared_scanned_Debug C$:/Users/jghig/projects/cxx/clark/src/shared/eng/socket/socket.ixx | src/shared/CMakeFiles/shared.dir/eng/socket/socket.ixx.obj.modmap || cmake_object_order_depends_target_shared src/shared/CMakeFiles/shared.dir/CXX.dd
+  CONFIG = Debug
+  DEFINES = -DASIO_STANDALONE
+  DEP_FILE = src\shared\CMakeFiles\shared.dir\eng\socket\socket.ixx.obj.d
+  DYNDEP_MODULE_MAP_FILE = src\shared\CMakeFiles\shared.dir\eng\socket\socket.ixx.obj.modmap
+  FLAGS = -Wall -g -stdlib=libc++ -std=gnu++20
+  INCLUDES = -IC:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include -IC:/Users/jghig/projects/cxx/clark/lib/result/include
+  OBJECT_DIR = src\shared\CMakeFiles\shared.dir
+  OBJECT_FILE_DIR = src\shared\CMakeFiles\shared.dir\eng\socket
+  TARGET_SUPPORT_DIR = src\shared\CMakeFiles\shared.dir
+  dyndep = src/shared/CMakeFiles/shared.dir/CXX.dd
+
+build src/shared/CMakeFiles/shared.dir/CXX.dd | src/shared/CMakeFiles/shared.dir/CXXModules.json src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj.modmap src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj.modmap src/shared/CMakeFiles/shared.dir/eng/socket/socket.ixx.obj.modmap: CXX_DYNDEP__shared_Debug src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj.ddi src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj.ddi src/shared/CMakeFiles/shared.dir/eng/socket/socket.ixx.obj.ddi | C$:/Users/jghig/projects/cxx/clark/out/debug/src/shared/CMakeFiles/shared.dir/CXXDependInfo.json CMakeFiles/@cmake_cxx_std@synth_0.dir/CXXModules.json
 
 
 # =============================================================================
@@ -1769,7 +2005,7 @@ build src/shared/CMakeFiles/shared.dir/CXX.dd | src/shared/CMakeFiles/shared.dir
 #############################################
 # Link the static library src\shared\libshared.a
 
-build src/shared/libshared.a: CXX_STATIC_LIBRARY_LINKER__shared_Debug src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj || @cmake_cxx_std@synth_0
+build src/shared/libshared.a: CXX_STATIC_LIBRARY_LINKER__shared_Debug src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj src/shared/CMakeFiles/shared.dir/eng/socket/socket.ixx.obj || @cmake_cxx_std@synth_0
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -Wall -g -stdlib=libc++
   OBJECT_DIR = src\shared\CMakeFiles\shared.dir
@@ -1920,7 +2156,14 @@ build update_mappings: phony lib/raylib/raylib/external/glfw/src/update_mappings
 #############################################
 # Folder: C:/Users/jghig/projects/cxx/clark/out/debug
 
-build codegen: phony lib/raylib/codegen lib/raylibcpp/codegen src/client/codegen src/server/codegen src/shared/codegen
+build codegen: phony lib/raylib/codegen lib/raylibcpp/codegen lib/asiostandalone/codegen lib/result/codegen src/client/codegen src/server/codegen src/shared/codegen
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/jghig/projects/cxx/clark/out/debug/lib/asiostandalone
+
+build lib/asiostandalone/codegen: phony
 
 # =============================================================================
 
@@ -1974,6 +2217,13 @@ build lib/raylibcpp/modules/codegen: phony
 # =============================================================================
 
 #############################################
+# Folder: C:/Users/jghig/projects/cxx/clark/out/debug/lib/result
+
+build lib/result/codegen: phony
+
+# =============================================================================
+
+#############################################
 # Folder: C:/Users/jghig/projects/cxx/clark/out/debug/src/client
 
 build src/client/codegen: phony src/client/eng/codegen
@@ -2004,7 +2254,14 @@ build src/shared/codegen: phony
 #############################################
 # Folder: C:/Users/jghig/projects/cxx/clark/out/debug
 
-build all: phony clark.exe @cmake_cxx_std@synth_0 lib/raylib/all lib/raylibcpp/all src/client/all src/server/all src/shared/all
+build all: phony clark.exe @cmake_cxx_std@synth_0 lib/raylib/all lib/raylibcpp/all lib/asiostandalone/all lib/result/all src/client/all src/server/all src/shared/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/jghig/projects/cxx/clark/out/debug/lib/asiostandalone
+
+build lib/asiostandalone/all: phony
 
 # =============================================================================
 
@@ -2058,6 +2315,13 @@ build lib/raylibcpp/modules/all: phony lib/raylibcpp/modules/libraylib_cpp_modul
 # =============================================================================
 
 #############################################
+# Folder: C:/Users/jghig/projects/cxx/clark/out/debug/lib/result
+
+build lib/result/all: phony
+
+# =============================================================================
+
+#############################################
 # Folder: C:/Users/jghig/projects/cxx/clark/out/debug/src/client
 
 build src/client/all: phony src/client/libclient.a src/client/eng/all
@@ -2104,14 +2368,14 @@ build C$:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/cmake.verify_globs
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/jghig/projects/cxx/clark/out/debug/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylibcpp/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylibcpp/include/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylibcpp/modules/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/src/client/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/src/client/eng/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/src/server/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/src/shared/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/CTestTestfile.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/CTestTestfile.cmake: RERUN_CMAKE C$:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/cmake.verify_globs | C$:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/VerifyGlobs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Templates/CPackConfig.cmake.in C$:/Users/jghig/projects/cxx/clark/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/CMakeOptions.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/AddIfFlagCompiles.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/CompileDefinitions.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/CompilerFlags.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/EnumOption.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/GlfwImport.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/InstallConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/JoinPaths.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/LibraryConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/PackConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/ParseConfigHeader.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/raylib-config-version.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/raylib-config.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/raylib.pc.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/cmake/raylib_cppConfig.cmake.in C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/modules/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/client/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/client/eng/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/server/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/shared/CMakeLists.txt CMakeCache.txt CMakeFiles/4.5.0-rc3/CMakeCCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeCXXCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeRCCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeSystem.cmake
+build build.ninja C$:/Users/jghig/projects/cxx/clark/out/debug/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/external/glfw/src/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylibcpp/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylibcpp/include/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylibcpp/modules/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/asiostandalone/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/result/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/src/client/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/src/client/eng/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/src/server/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/src/shared/cmake_install.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/CTestTestfile.cmake C$:/Users/jghig/projects/cxx/clark/out/debug/lib/raylib/raylib/CTestTestfile.cmake: RERUN_CMAKE C$:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/cmake.verify_globs | C$:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/VerifyGlobs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Templates/CPackConfig.cmake.in C$:/Users/jghig/projects/cxx/clark/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/asiostandalone/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/CMakeOptions.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/AddIfFlagCompiles.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/CompileDefinitions.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/CompilerFlags.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/EnumOption.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/GlfwImport.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/InstallConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/JoinPaths.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/LibraryConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/PackConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/ParseConfigHeader.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/raylib-config-version.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/raylib-config.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/raylib.pc.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/cmake/raylib_cppConfig.cmake.in C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/modules/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/result/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/client/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/client/eng/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/server/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/shared/CMakeLists.txt CMakeCache.txt CMakeFiles/4.5.0-rc3/CMakeCCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeCXXCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeRCCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/VerifyGlobs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Templates/CPackConfig.cmake.in C$:/Users/jghig/projects/cxx/clark/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/CMakeOptions.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/AddIfFlagCompiles.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/CompileDefinitions.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/CompilerFlags.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/EnumOption.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/GlfwImport.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/InstallConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/JoinPaths.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/LibraryConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/PackConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/ParseConfigHeader.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/raylib-config-version.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/raylib-config.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/raylib.pc.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/cmake/raylib_cppConfig.cmake.in C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/modules/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/client/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/client/eng/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/server/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/shared/CMakeLists.txt CMakeCache.txt CMakeFiles/4.5.0-rc3/CMakeCCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeCXXCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeRCCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeSystem.cmake: phony
+build C$:/Users/jghig/projects/cxx/clark/out/debug/CMakeFiles/VerifyGlobs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakePushCheckState.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Linker/LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Linker/Windows-LLD.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang-C.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Clang.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.5/Templates/CPackConfig.cmake.in C$:/Users/jghig/projects/cxx/clark/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/asiostandalone/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/CMakeOptions.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/AddIfFlagCompiles.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/CompileDefinitions.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/CompilerFlags.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/EnumOption.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/GlfwImport.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/InstallConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/JoinPaths.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/LibraryConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/LibraryPathToLinkerFlags.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/PackConfigurations.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/ParseConfigHeader.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/PopulateConfigVariablesLocally.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/raylib-config-version.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/cmake/raylib-config.cmake C$:/Users/jghig/projects/cxx/clark/lib/raylib/raylib.pc.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMake/glfw3.pc.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/CMake/glfw3Config.cmake.in C$:/Users/jghig/projects/cxx/clark/lib/raylib/src/external/glfw/src/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/cmake/raylib_cppConfig.cmake.in C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/include/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/raylibcpp/modules/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/lib/result/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/client/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/client/eng/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/server/CMakeLists.txt C$:/Users/jghig/projects/cxx/clark/src/shared/CMakeLists.txt CMakeCache.txt CMakeFiles/4.5.0-rc3/CMakeCCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeCXXCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeRCCompiler.cmake CMakeFiles/4.5.0-rc3/CMakeSystem.cmake: phony
 
 
 #############################################

@@ -14,11 +14,13 @@ add_subdirectory("lib/raylib")
 add_subdirectory("lib/raylibcpp")
 
 #
+
+add_subdirectory("lib/asiostandalone")
+
 #
 
-add_subdirectory("lib/asio")
+add_subdirectory("lib/result")
 
-#
 #
 
 add_subdirectory("src/client")

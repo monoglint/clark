@@ -28,6 +28,21 @@
 			"lookup-method" : "by-name",
 			"path" : "src/server/CMakeFiles/server.dir/server.pcm"
 		},
+		"shared.eng.inst" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/shared/CMakeFiles/shared.dir/shared.eng.inst.pcm"
+		},
+		"shared.eng.inst:spatial_body" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/shared/CMakeFiles/shared.dir/shared.eng.inst-spatial_body.pcm"
+		},
+		"shared.eng.remote" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/shared/CMakeFiles/shared.dir/shared.eng.remote.pcm"
+		},
 		"std" : 
 		{
 			"lookup-method" : "by-name",

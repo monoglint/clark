@@ -1,0 +1,10 @@
+ninja_dyndep_version = 1.0
+build src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj | src/shared/CMakeFiles/shared.dir/shared.eng.inst.pcm: dyndep
+  restat = 1
+
+build src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj | src/shared/CMakeFiles/shared.dir/shared.eng.inst-spatial_body.pcm: dyndep
+  restat = 1
+
+build src/shared/CMakeFiles/shared.dir/eng/remote/remote.ixx.obj | src/shared/CMakeFiles/shared.dir/shared.eng.remote.pcm: dyndep
+  restat = 1
+

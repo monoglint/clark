@@ -9,16 +9,17 @@
 		"src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj" : 
 		{
 			"bmi-only" : false,
-			"compile-features" : 
-			[
-				"cxx_std_11"
-			],
+			"compile-features" : [],
 			"compile-options" : [],
-			"definitions" : [],
+			"definitions" : 
+			[
+				"ASIO_STANDALONE"
+			],
 			"destination" : null,
 			"include-directories" : 
 			[
-				"C:/Users/jghig/projects/cxx/clark/lib/asio/include"
+				"C:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include",
+				"C:/Users/jghig/projects/cxx/clark/lib/result/include"
 			],
 			"name" : "CXX_MODULES",
 			"relative-directory" : "eng/inst",
@@ -29,16 +30,17 @@
 		"src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj" : 
 		{
 			"bmi-only" : false,
-			"compile-features" : 
-			[
-				"cxx_std_11"
-			],
+			"compile-features" : [],
 			"compile-options" : [],
-			"definitions" : [],
+			"definitions" : 
+			[
+				"ASIO_STANDALONE"
+			],
 			"destination" : null,
 			"include-directories" : 
 			[
-				"C:/Users/jghig/projects/cxx/clark/lib/asio/include"
+				"C:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include",
+				"C:/Users/jghig/projects/cxx/clark/lib/result/include"
 			],
 			"name" : "CXX_MODULES",
 			"relative-directory" : "eng/inst",
@@ -46,23 +48,24 @@
 			"type" : "CXX_MODULES",
 			"visibility" : "PUBLIC"
 		},
-		"src/shared/CMakeFiles/shared.dir/eng/remote/remote.ixx.obj" : 
+		"src/shared/CMakeFiles/shared.dir/eng/socket/socket.ixx.obj" : 
 		{
 			"bmi-only" : false,
-			"compile-features" : 
-			[
-				"cxx_std_11"
-			],
+			"compile-features" : [],
 			"compile-options" : [],
-			"definitions" : [],
+			"definitions" : 
+			[
+				"ASIO_STANDALONE"
+			],
 			"destination" : null,
 			"include-directories" : 
 			[
-				"C:/Users/jghig/projects/cxx/clark/lib/asio/include"
+				"C:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include",
+				"C:/Users/jghig/projects/cxx/clark/lib/result/include"
 			],
 			"name" : "CXX_MODULES",
-			"relative-directory" : "eng/remote",
-			"source" : "C:/Users/jghig/projects/cxx/clark/src/shared/eng/remote/remote.ixx",
+			"relative-directory" : "eng/socket",
+			"source" : "C:/Users/jghig/projects/cxx/clark/src/shared/eng/socket/socket.ixx",
 			"type" : "CXX_MODULES",
 			"visibility" : "PUBLIC"
 		}
@@ -76,7 +79,8 @@
 	"forward-modules-from-target-dirs" : [],
 	"include-dirs" : 
 	[
-		"C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\asio\\include"
+		"C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\asiostandalone\\include",
+		"C:\\Users\\jghig\\projects\\cxx\\clark\\lib\\result\\include"
 	],
 	"language" : "CXX",
 	"linked-target-dirs" : 

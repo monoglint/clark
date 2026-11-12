@@ -399,6 +399,15 @@ USE_EXTERNAL_GLFW:STRING=OFF
 WITH_PIC:BOOL=OFF
 
 //Value Computed by CMake
+asio_subproject_BINARY_DIR:STATIC=C:/Users/jghig/projects/cxx/clark/out/release/lib/asiostandalone
+
+//Value Computed by CMake
+asio_subproject_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+asio_subproject_SOURCE_DIR:STATIC=C:/Users/jghig/projects/cxx/clark/lib/asiostandalone
+
+//Value Computed by CMake
 boost_asio_BINARY_DIR:STATIC=C:/Users/jghig/projects/cxx/clark/out/release/lib/asio
 
 //Value Computed by CMake
@@ -599,7 +608,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

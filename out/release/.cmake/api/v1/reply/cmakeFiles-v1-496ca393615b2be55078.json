@@ -24,7 +24,7 @@
 			[
 				"C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/inst.ixx",
 				"C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/spatial_body.ixx",
-				"C:/Users/jghig/projects/cxx/clark/src/shared/eng/remote/remote.ixx"
+				"C:/Users/jghig/projects/cxx/clark/src/shared/eng/socket/socket.ixx"
 			],
 			"recurse" : true
 		}
@@ -621,7 +621,10 @@
 			"path" : "lib/raylibcpp/modules/CMakeLists.txt"
 		},
 		{
-			"path" : "lib/asio/CMakeLists.txt"
+			"path" : "lib/asiostandalone/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/result/CMakeLists.txt"
 		},
 		{
 			"path" : "src/client/CMakeLists.txt"

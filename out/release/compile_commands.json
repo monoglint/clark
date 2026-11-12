@@ -211,20 +211,20 @@
 },
 {
   "directory": "C:/Users/jghig/projects/cxx/clark/out/release",
-  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -IC:/Users/jghig/projects/cxx/clark/lib/asio/include -Wall -stdlib=libc++ -std=gnu++20 @src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\inst.ixx.obj.modmap -o src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\inst.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\shared\\eng\\inst\\inst.ixx",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DASIO_STANDALONE -IC:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include -IC:/Users/jghig/projects/cxx/clark/lib/result/include -Wall -stdlib=libc++ -std=gnu++20 @src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\inst.ixx.obj.modmap -o src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\inst.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\shared\\eng\\inst\\inst.ixx",
   "file": "C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/inst.ixx",
   "output": "C:/Users/jghig/projects/cxx/clark/out/release/src/shared/CMakeFiles/shared.dir/eng/inst/inst.ixx.obj"
 },
 {
   "directory": "C:/Users/jghig/projects/cxx/clark/out/release",
-  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -IC:/Users/jghig/projects/cxx/clark/lib/asio/include -Wall -stdlib=libc++ -std=gnu++20 @src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\spatial_body.ixx.obj.modmap -o src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\spatial_body.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\shared\\eng\\inst\\spatial_body.ixx",
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DASIO_STANDALONE -IC:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include -IC:/Users/jghig/projects/cxx/clark/lib/result/include -Wall -stdlib=libc++ -std=gnu++20 @src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\spatial_body.ixx.obj.modmap -o src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\spatial_body.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\shared\\eng\\inst\\spatial_body.ixx",
   "file": "C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/spatial_body.ixx",
   "output": "C:/Users/jghig/projects/cxx/clark/out/release/src/shared/CMakeFiles/shared.dir/eng/inst/spatial_body.ixx.obj"
 },
 {
   "directory": "C:/Users/jghig/projects/cxx/clark/out/release",
-  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -IC:/Users/jghig/projects/cxx/clark/lib/asio/include -Wall -stdlib=libc++ -std=gnu++20 @src\\shared\\CMakeFiles\\shared.dir\\eng\\remote\\remote.ixx.obj.modmap -o src\\shared\\CMakeFiles\\shared.dir\\eng\\remote\\remote.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\shared\\eng\\remote\\remote.ixx",
-  "file": "C:/Users/jghig/projects/cxx/clark/src/shared/eng/remote/remote.ixx",
-  "output": "C:/Users/jghig/projects/cxx/clark/out/release/src/shared/CMakeFiles/shared.dir/eng/remote/remote.ixx.obj"
+  "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DASIO_STANDALONE -IC:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include -IC:/Users/jghig/projects/cxx/clark/lib/result/include -Wall -stdlib=libc++ -std=gnu++20 @src\\shared\\CMakeFiles\\shared.dir\\eng\\socket\\socket.ixx.obj.modmap -o src\\shared\\CMakeFiles\\shared.dir\\eng\\socket\\socket.ixx.obj -c C:\\Users\\jghig\\projects\\cxx\\clark\\src\\shared\\eng\\socket\\socket.ixx",
+  "file": "C:/Users/jghig/projects/cxx/clark/src/shared/eng/socket/socket.ixx",
+  "output": "C:/Users/jghig/projects/cxx/clark/out/release/src/shared/CMakeFiles/shared.dir/eng/socket/socket.ixx.obj"
 }
 ]

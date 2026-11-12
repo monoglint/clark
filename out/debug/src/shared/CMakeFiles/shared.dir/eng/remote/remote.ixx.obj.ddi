@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\shared\\CMakeFiles\\shared.dir\\eng\\remote\\remote.ixx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "shared.eng.remote",
+          "source-path": "C:/Users/jghig/projects/cxx/clark/src/shared/eng/remote/remote.ixx"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

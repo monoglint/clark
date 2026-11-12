@@ -1,0 +1,56 @@
+{
+	"interface-objects" : {},
+	"modules" : 
+	{
+		"shared.eng.inst" : 
+		{
+			"bmi" : "C:/Users/jghig/projects/cxx/clark/out/debug/src/shared/CMakeFiles/shared.dir/shared.eng.inst.pcm",
+			"is-private" : false
+		},
+		"shared.eng.inst:spatial_body" : 
+		{
+			"bmi" : "C:/Users/jghig/projects/cxx/clark/out/debug/src/shared/CMakeFiles/shared.dir/shared.eng.inst-spatial_body.pcm",
+			"is-private" : false
+		},
+		"shared.eng.remote" : 
+		{
+			"bmi" : "C:/Users/jghig/projects/cxx/clark/out/debug/src/shared/CMakeFiles/shared.dir/shared.eng.remote.pcm",
+			"is-private" : false
+		}
+	},
+	"references" : 
+	{
+		"shared.eng.inst" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/shared/CMakeFiles/shared.dir/shared.eng.inst.pcm"
+		},
+		"shared.eng.inst:spatial_body" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/shared/CMakeFiles/shared.dir/shared.eng.inst-spatial_body.pcm"
+		},
+		"shared.eng.remote" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/shared/CMakeFiles/shared.dir/shared.eng.remote.pcm"
+		},
+		"std" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/@cmake_cxx_std@synth_0.dir/70b2301d7307.bmi"
+		},
+		"std.compat" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/@cmake_cxx_std@synth_0.dir/f6733e1179a8.bmi"
+		}
+	},
+	"usages" : 
+	{
+		"std.compat" : 
+		[
+			"std"
+		]
+	}
+}

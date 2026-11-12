@@ -49,7 +49,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jghig/projects/cxx/clark/out/release/lib/asio/cmake_install.cmake")
+  include("C:/Users/jghig/projects/cxx/clark/out/release/lib/asiostandalone/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/jghig/projects/cxx/clark/out/release/lib/result/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

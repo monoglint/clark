@@ -1,0 +1,47 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"lib/asiostandalone/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	},
+	"id" : "asio::@0f93df788f81b465e180",
+	"interfaceIncludes" : 
+	[
+		{
+			"path" : "C:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include"
+		}
+	],
+	"name" : "asio",
+	"paths" : 
+	{
+		"build" : "lib/asiostandalone",
+		"source" : "lib/asiostandalone"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

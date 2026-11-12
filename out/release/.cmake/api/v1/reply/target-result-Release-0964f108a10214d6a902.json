@@ -1,0 +1,47 @@
+{
+	"abstract" : true,
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"lib/result/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 12
+	},
+	"id" : "result::@c47be8674f03c3e2fadb",
+	"interfaceIncludes" : 
+	[
+		{
+			"path" : "C:/Users/jghig/projects/cxx/clark/lib/result/include"
+		}
+	],
+	"name" : "result",
+	"paths" : 
+	{
+		"build" : "lib/result",
+		"source" : "lib/result"
+	},
+	"sources" : [],
+	"type" : "INTERFACE_LIBRARY"
+}

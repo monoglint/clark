@@ -59,7 +59,7 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/jghig/projects/cxx/c
 set(OLD_GLOB
   "C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/inst.ixx"
   "C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/spatial_body.ixx"
-  "C:/Users/jghig/projects/cxx/clark/src/shared/eng/remote/remote.ixx"
+  "C:/Users/jghig/projects/cxx/clark/src/shared/eng/socket/socket.ixx"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

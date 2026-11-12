@@ -13,7 +13,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "lib/asio",
-		"source" : "lib/asio"
+		"build" : "lib/asiostandalone",
+		"source" : "lib/asiostandalone"
 	}
 }

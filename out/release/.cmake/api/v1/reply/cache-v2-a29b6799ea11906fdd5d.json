@@ -1219,7 +1219,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "13"
+			"value" : "14"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2188,6 +2188,42 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "C:/Program Files (x86)/clark"
+		},
+		{
+			"name" : "asio_subproject_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/jghig/projects/cxx/clark/out/release/lib/asiostandalone"
+		},
+		{
+			"name" : "asio_subproject_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "asio_subproject_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/jghig/projects/cxx/clark/lib/asiostandalone"
 		},
 		{
 			"name" : "boost_asio_BINARY_DIR",

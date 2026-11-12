@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/server/libserver.a"
+			"path" : "src/shared/libshared.a"
 		}
 	],
 	"backtrace" : 1,
@@ -17,8 +17,7 @@
 		],
 		"files" : 
 		[
-			"src/server/CMakeLists.txt",
-			"CMakeLists.txt"
+			"src/shared/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -32,13 +31,10 @@
 				"parent" : 0
 			},
 			{
-				"file" : 1
-			},
-			{
 				"command" : 1,
-				"file" : 1,
-				"line" : 33,
-				"parent" : 2
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
 			},
 			{
 				"command" : 2,
@@ -56,8 +52,12 @@
 	"compileDependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "shared::@98093a27b7e7f29c85ce"
+			"backtrace" : 2,
+			"id" : "asio::@0f93df788f81b465e180"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "result::@c47be8674f03c3e2fadb"
 		},
 		{
 			"backtrace" : 0,
@@ -77,6 +77,24 @@
 					"fragment" : "-Wall -stdlib=libc++ -std=gnu++20"
 				}
 			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "ASIO_STANDALONE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/jghig/projects/cxx/clark/lib/asiostandalone/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/jghig/projects/cxx/clark/lib/result/include"
+				}
+			],
 			"language" : "CXX",
 			"languageStandard" : 
 			{
@@ -88,16 +106,14 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			]
 		}
 	],
 	"dependencies" : 
 	[
-		{
-			"backtrace" : 3,
-			"id" : "shared::@98093a27b7e7f29c85ce"
-		},
 		{
 			"backtrace" : 0,
 			"id" : "@cmake_cxx_std@synth_0::@6890427a1f51a3e7e1df"
@@ -108,19 +124,23 @@
 		{
 			"baseDirectories" : 
 			[
-				"src/server"
+				"src/shared"
 			],
 			"name" : "CXX_MODULES",
 			"type" : "CXX_MODULES",
 			"visibility" : "PUBLIC"
 		}
 	],
-	"id" : "server::@2804e40980a64c7d7ad1",
+	"id" : "shared::@98093a27b7e7f29c85ce",
 	"interfaceLinkLibraries" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "shared::@98093a27b7e7f29c85ce"
+			"backtrace" : 2,
+			"id" : "asio::@0f93df788f81b465e180"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "result::@c47be8674f03c3e2fadb"
 		}
 	],
 	"interfaceSources" : 
@@ -131,15 +151,37 @@
 			[
 				0
 			],
-			"path" : "src/server/server_main.ixx",
+			"path" : "src/shared/eng/inst/inst.ixx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"fileSetIndex" : 0,
+			"fileSetIndexes" : 
+			[
+				0
+			],
+			"path" : "src/shared/eng/inst/spatial_body.ixx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"fileSetIndex" : 0,
+			"fileSetIndexes" : 
+			[
+				0
+			],
+			"path" : "src/shared/eng/socket/socket.ixx",
 			"sourceGroupIndex" : 0
 		}
 	],
 	"linkLibraries" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "shared::@98093a27b7e7f29c85ce"
+			"backtrace" : 2,
+			"id" : "asio::@0f93df788f81b465e180"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "result::@c47be8674f03c3e2fadb"
 		},
 		{
 			"backtrace" : 0,
@@ -150,34 +192,38 @@
 			"id" : "@cmake_cxx_std::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "server",
-	"nameOnDisk" : "libserver.a",
+	"name" : "shared",
+	"nameOnDisk" : "libshared.a",
 	"paths" : 
 	{
-		"build" : "src/server",
-		"source" : "src/server"
+		"build" : "src/shared",
+		"source" : "src/shared"
 	},
 	"sourceGroups" : 
 	[
 		{
 			"interfaceSourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			],
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			]
 		}
 	],
 	"sources" : 
 	[
 		{
-			"backtrace" : 4,
+			"backtrace" : 3,
 			"backtraces" : 
 			[
-				4
+				3
 			],
 			"compileGroupIndex" : 0,
 			"fileSetIndex" : 0,
@@ -185,7 +231,37 @@
 			[
 				0
 			],
-			"path" : "src/server/server_main.ixx",
+			"path" : "src/shared/eng/inst/inst.ixx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"compileGroupIndex" : 0,
+			"fileSetIndex" : 0,
+			"fileSetIndexes" : 
+			[
+				0
+			],
+			"path" : "src/shared/eng/inst/spatial_body.ixx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"compileGroupIndex" : 0,
+			"fileSetIndex" : 0,
+			"fileSetIndexes" : 
+			[
+				0
+			],
+			"path" : "src/shared/eng/socket/socket.ixx",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\shared\\CMakeFiles\\shared.dir\\eng\\inst\\inst.ixx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "shared.eng.inst",
+          "source-path": "C:/Users/jghig/projects/cxx/clark/src/shared/eng/inst/inst.ixx"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

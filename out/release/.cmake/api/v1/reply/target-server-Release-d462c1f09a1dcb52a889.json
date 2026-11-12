@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/shared/libshared.a"
+			"path" : "src/server/libserver.a"
 		}
 	],
 	"backtrace" : 1,
@@ -12,11 +12,13 @@
 		"commands" : 
 		[
 			"add_library",
+			"target_link_libraries",
 			"target_sources"
 		],
 		"files" : 
 		[
-			"src/shared/CMakeLists.txt"
+			"src/server/CMakeLists.txt",
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -30,7 +32,16 @@
 				"parent" : 0
 			},
 			{
+				"file" : 1
+			},
+			{
 				"command" : 1,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
 				"file" : 0,
 				"line" : 8,
 				"parent" : 0
@@ -44,6 +55,10 @@
 	},
 	"compileDependencies" : 
 	[
+		{
+			"backtrace" : 3,
+			"id" : "shared::@98093a27b7e7f29c85ce"
+		},
 		{
 			"backtrace" : 0,
 			"id" : "@cmake_cxx_std@synth_0::@6890427a1f51a3e7e1df"
@@ -73,14 +88,16 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2
+				0
 			]
 		}
 	],
 	"dependencies" : 
 	[
+		{
+			"backtrace" : 3,
+			"id" : "shared::@98093a27b7e7f29c85ce"
+		},
 		{
 			"backtrace" : 0,
 			"id" : "@cmake_cxx_std@synth_0::@6890427a1f51a3e7e1df"
@@ -91,14 +108,21 @@
 		{
 			"baseDirectories" : 
 			[
-				"src/shared"
+				"src/server"
 			],
 			"name" : "CXX_MODULES",
 			"type" : "CXX_MODULES",
 			"visibility" : "PUBLIC"
 		}
 	],
-	"id" : "shared::@98093a27b7e7f29c85ce",
+	"id" : "server::@2804e40980a64c7d7ad1",
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "shared::@98093a27b7e7f29c85ce"
+		}
+	],
 	"interfaceSources" : 
 	[
 		{
@@ -107,30 +131,16 @@
 			[
 				0
 			],
-			"path" : "src/shared/eng/inst/inst.ixx",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"fileSetIndex" : 0,
-			"fileSetIndexes" : 
-			[
-				0
-			],
-			"path" : "src/shared/eng/inst/spatial_body.ixx",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"fileSetIndex" : 0,
-			"fileSetIndexes" : 
-			[
-				0
-			],
-			"path" : "src/shared/eng/remote/remote.ixx",
+			"path" : "src/server/server_main.ixx",
 			"sourceGroupIndex" : 0
 		}
 	],
 	"linkLibraries" : 
 	[
+		{
+			"backtrace" : 3,
+			"id" : "shared::@98093a27b7e7f29c85ce"
+		},
 		{
 			"backtrace" : 0,
 			"id" : "@cmake_cxx_std@synth_0::@6890427a1f51a3e7e1df"
@@ -140,38 +150,34 @@
 			"id" : "@cmake_cxx_std::@6890427a1f51a3e7e1df"
 		}
 	],
-	"name" : "shared",
-	"nameOnDisk" : "libshared.a",
+	"name" : "server",
+	"nameOnDisk" : "libserver.a",
 	"paths" : 
 	{
-		"build" : "src/shared",
-		"source" : "src/shared"
+		"build" : "src/server",
+		"source" : "src/server"
 	},
 	"sourceGroups" : 
 	[
 		{
 			"interfaceSourceIndexes" : 
 			[
-				0,
-				1,
-				2
+				0
 			],
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2
+				0
 			]
 		}
 	],
 	"sources" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 4,
 			"backtraces" : 
 			[
-				2
+				4
 			],
 			"compileGroupIndex" : 0,
 			"fileSetIndex" : 0,
@@ -179,37 +185,7 @@
 			[
 				0
 			],
-			"path" : "src/shared/eng/inst/inst.ixx",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"backtraces" : 
-			[
-				2
-			],
-			"compileGroupIndex" : 0,
-			"fileSetIndex" : 0,
-			"fileSetIndexes" : 
-			[
-				0
-			],
-			"path" : "src/shared/eng/inst/spatial_body.ixx",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"backtraces" : 
-			[
-				2
-			],
-			"compileGroupIndex" : 0,
-			"fileSetIndex" : 0,
-			"fileSetIndexes" : 
-			[
-				0
-			],
-			"path" : "src/shared/eng/remote/remote.ixx",
+			"path" : "src/server/server_main.ixx",
 			"sourceGroupIndex" : 0
 		}
 	],
